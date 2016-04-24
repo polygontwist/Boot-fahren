@@ -10,22 +10,6 @@
 function bootfahren(){
 	
 	
-	//--audio--
-	//http://keithwhor.github.io/audiosynth/
-	//https://github.com/keithwhor/audiosynth
-	/*Synth instanceof AudioSynth; // true
-	var testInstance = new AudioSynth;
-	testInstance instanceof AudioSynth; // true
-	testInstance === Synth; // true
-	var piano = Synth.createInstrument('organ');
-	//Synth.setSampleRate(4000);
-	Synth.setVolume(0.1);
-	console.log(Synth.getSampleRate());
-		piano.play('C', 4, 1);// plays C4 for 1s using the 'piano' sound profile
-		piano.play('E', 4, 1);// plays C4 for 1s using the 'piano' sound profile
-		piano.play('A', 4, 1);// plays C4 for 1s using the 'piano' sound profile
-		piano.play('F', 4, 1);// plays C4 for 1s using the 'piano' sound profile
-	*/
 	//---Helper---
 	var cE=function(ziel,sElement,id){
 			var newElement=document.createElement(sElement);
